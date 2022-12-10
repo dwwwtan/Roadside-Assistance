@@ -239,7 +239,7 @@ body a:hover {
 /* content */
 
 body {
-    background: linear-gradient(0deg,rgba(0,0,0,0.1),rgba(0,0,0,0.8)) ,url(../image/home.jpg) no-repeat center;
+    background: linear-gradient(0deg,rgba(0,0,0,0.1),rgba(0,0,0,0.8)) ,url(/image/home.jpg) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
