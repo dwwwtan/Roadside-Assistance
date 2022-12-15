@@ -90,7 +90,7 @@ if (isset($_SESSION["user_id"])) {
 <body>
     
     <header>
-    <a href="./../index.php">ALO CỨU HỘ 14</a>
+    <a href="./../index.html">ALO CỨU HỘ 14</a>
     </header>
     
     <?php if (isset($user)): ?>
