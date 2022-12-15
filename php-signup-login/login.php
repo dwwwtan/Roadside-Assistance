@@ -126,7 +126,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 </head>
 <body>
     <header>
-        <a style="color: aliceblue;" href="../index.php">ALO CỨU HỘ 14</a>
+        <a style="color: aliceblue;" href="../index.html">ALO CỨU HỘ 14</a>
     </header>
     <p>Hãy điền Email và Mật khẩu tại đây.</p>
     
