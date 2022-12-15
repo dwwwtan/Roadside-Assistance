@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <title> CỨU HỘ XE NHANH CHÓNG - KHẨN CẤP</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Add icon library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Dancing+Script:400,700&amp;subset=latin-ext,vietnamese" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  <!-- Font Awesome Icon Library -->
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./assets/css/contact-form.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <!-- import icon font awesome -->
+  <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" /> -->
+
+  <script>
+  // kéo xuống khoảng cách 500px thì xuất hiện nút Top-up
+  var offset = 500;
+  // thời gian di trượt 0.75s ( 1000 = 1s )
+  var duration = 750;
+  $(function(){
+  $(window).scroll(function () {
+  if ($(this).scrollTop() > offset)
+  $('#top-up').fadeIn(duration);else
+  $('#top-up').fadeOut(duration);
+  });
+  $('#top-up').click(function () {
+  $('body,html').animate({scrollTop: 0}, duration);
+  });
+  });
+  </script>
+  <div title="Về đầu trang" id="top-up">
+  <i class="fa fa-chevron-up" aria-hidden="true"></i>
+  </div>
+  
+  <style>
+  </style>
+  
+</head>
+
+<body>
+  
+<nav  class="navbar navbar-expand-md bg-dark  navbar-dark">
+  <a style="margin-left: 1.3em;" class="navbar-brand" href="index.php">ALO CỨU HỘ 14</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+  <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div  class="collapse navbar-collapse design " id="collapsibleNavbar">
+    <div class="container">
+    <div class="row">
+        <div class="col-sm-3">
+      <li class="nav-item">
+        <a class="nav-link" href="index.php"><i  style="font-size: 1em; " class="fa fa-home"></i> TRANG CHỦ</a>
+      </li>
+          </div>
+
+        <div class="col-sm-3">
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown" href="#"> DỊCH VỤ</a>
+          <div class="dropdown-menu design1">
+          <a class="dropdown-item" href="gas-station.html">Trạm Xăng Gần Đây</a>
+          <a class="dropdown-item" href="repair.html">Gara Gần Đây</a>
+          <a class="dropdown-item" href="emergency.html">Đường Dây Nóng</a>              
+          </div>
+        </li>
+          </div>
+
+        <div class="col-sm-3"><li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown" href="#">LIÊN HỆ</a>
+          <div class="dropdown-menu design1">
+          <a class="dropdown-item" href="#about">Về Chúng Tôi </a>
+          <a class="dropdown-item" href="#about">Liên Hệ</a>
+          <a class="dropdown-item" href="#service">Hướng Dẫn Sử Dụng</a>
+          </div>
+        </li>
+          </div>
+
+        <div class="col-sm-2">
+        <li class="nav-item">
+        <a class="nav-link" href="./php-signup-login/user.php">TÀI KHOẢN</a>
+        </li>
+        </div>
+        
+
+    </div>
+    </div>
+    </div>
+        </nav>
+          <div class="background">
+      <header >
+
+            <h1> Tìm Kiếm Gara Sửa Chữa, Trạm Xăng, Xe Kéo Gần Nhất Và Nhiều Điều Hơn Thế</h1>
+            <h4>Có Mặt Ngay Khi Bạn Cần, Chỉ Với Một Click</h4>
+            <br>
+            <h5><b></b>Phục Vụ 24h Cả Ngày Lẫn Đêm</h5> 
+            <br>
+            <h5>Chuyên Nghiệp - Uy Tín - Giá Rẻ</h5>
+            <div class="action-button one_fourth last" style="margin-top:2%; ">
+              <a href="tel:0396422172">
+                  <h4 class="themebutton">039.642.2172</h4>
+              </a>
+          </div>
+            <div class="container" style="margin-top: 7%;">
+                <div class="row">
+                  <div class="col-lg-12 ">
+                      <button class='btn btn-lg buttons'>
+                    <i class="fa  fa-map-marker"></i><a href="gas-station.html"> Tìm Kiếm Trạm Xăng </a>
+                      </button>
+                    </div>
+                    <div class="col-lg-12">
+                      <button class='btn btn-lg buttons' >
+                    <i class="fa fa-gears"></i><a href="repair.html"> Tìm Gara Sửa Chữa </a>
+                      </button>
+                </div>
+            </div>
+
+        </div>
+      </header>
+      <div class="backfooter" style="margin-top: 1%; ">
+        <ul>
+        <li style="padding: 0.5em;"> <a href="https://www.facebook.com/alocuuho14"><i class="fa fa-facebook"></i></a> </li>
+        <li style="padding: 0.5em;"> <a href="https://www.facebook.com/alocuuho14"><i class="fa  fa-google-plus"></i></a> </li>
+        <li style="padding: 0.5em;"> <a href="https://www.facebook.com/alocuuho14"><i class="fa fa-twitter"></i></a> </li>
+        <li style="padding: 0.5em;"> <a href="https://www.facebook.com/alocuuho14"><i class="fa fa-instagram"></i></a> </li>
+        </ul>
+      </div>
+
+    </div>
+    <br>
+
+<!-- Content -->
+    <article class="container">
+      <!-- Content1 -->
+      <div class="row">
+        <div class="col-sm-6"> <hr>
+          <p style="font-size:18px; font-family: Calibri; margin-top: 12%;"> <br>❝ Ít nhất một lần trong đời ai cũng từng gặp phải trường hợp xe bị hỏng hóc buộc phải tìm đến nơi sửa xe. Tìm Gara sửa xe hay Trạm bơm xăng dầu trong lúc nguy cấp đâu có dễ nhỉ? Vì vậy, Chúng tôi ở đây để giảm bớt toàn bộ gánh nặng của bạn trong việc tìm Gara và Trạm xăng trong trường hợp xe bạn gặp sự cố.❞</p>
+          <p style="font-size:18px;"> <br><b  style="color: coral; font-family: 'Dancing Script', cursive; font-size: 1.8em; "> Alo Cứu Hộ 14 </b>giúp bạn tìm Gara sửa xe và Trạm xăng gần nhất chỉ bằng MỘT CÚ NHẤP. Bạn chỉ cần nhập địa điểm và trong vòng một giây, chúng tôi sẽ cung cấp cho bạn thông tin chi tiết về trung tâm dịch vụ gần nhất.</p>
+        </div>
+        <div class="col-sm-6 col-lg-6 col-md-6 img-fluid ">
+          <img src="./assets/image/car1.jpg" alt="repair" >
+        </div>
+      </div>
+      <br><br>
+      <!-- Content2 -->
+      <section style="text-align: center ;" id="artical">
+          <hr><br><br>
+        <h3><span style="color: coral; font-family: Roboto;" ><strong>CHÚNG TÔI MANG ĐẾN CHO BẠN</strong></span>
+          <br><br>
+        </h3>
+        <div class="container" style="margin-top:1%; font-family: Calibri; font-size: 18px;">
+          <div class="row">
+            <div class="col-12 col-md-4">
+              <p><span style="color: red; font-size: larger; font-weight: 600;">Cam Kết Chuẩn Giá</span><br><i class="fa fa-check" aria-hidden="true" style="font-size: 30px; margin-top: 2%;"></i><br><br>Khi bạn gặp sự cố trên đường, bạn lo lắng việc gọi cứu hộ sẽ bị chèn ép về giá, hãy gọi ngay chúng tôi. Alo Cứu Hộ 14 cam kết sửa chuẩn giá như bạn sửa trong gara.</p>
+            </div>
+            <div class="col-12 col-md-4">
+              <p><span style="color: purple; font-size: larger; font-weight: 600;">Thợ Giỏi Tay Nghề Cao</span><br><i class="fa fa-wrench" aria-hidden="true" style="font-size: 30px; margin-top: 2%;"></i><br><br>Đội ngũ thợ cứu hộ luôn được đào tạo bài bản & Có ít nhất 5 năm kinh nghiệm, phục vụ chu đáo, nhiệt tình, xử lý triệt để mọi sự cố.</p>
+            </div>
+            <div class="col-12 col-md-4">
+              <p><span style="color: green; font-size: larger; font-weight: 600;">Bảo Hành Dài Hạn</span><br><i class="fa fa-hourglass-start" aria-hidden="true" style="font-size: 30px; margin-top: 2%;"></i><br><br>Đối với tất cả các trường hợp thay thế phụ tùng xe dù trên đường hay tại cửa hàng đều được Alo Cứu Hộ 14 bảo hành theo đúng quy định của sản phẩm chính hãng.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+<!-- Guide-->
+
+    <section style="text-align: center ;" id="service">
+        <hr><br>
+      <h3><span style="color: coral; font-family: Roboto;" ><strong>Hướng Dẫn Sử Dụng</strong></span>
+        <br><br>
+        </h3>
+    </section>
+
+      <div class="container" style="margin-top:1%; font-family: Calibri; font-size: 18px;">
+        <div class="row">
+          <div class="col-12 col-md-4" style="background-color: #DBDEE2;margin-left: 0.1em; margin-bottom: 0.5em;">
+          <p><span style="color:red;font-size: larger; font-weight: 550;">Tìm Kiếm Trạm Xăng Gần Nhất:</span><br><br>Bạn có thể tìm kiếm các trạm xăng gần nhất tại Việt Nam.<br><br>
+            Tại trang web của chúng tôi, tất cả các trạm xăng dầu tại Việt Nam đều năm trong tầm tay của bạn.<br>
+          </p>
+          </div>
+          <div class="col-12 col-md-3 "style="background-color: #DBDEE2; margin-left: 0.1em;margin-bottom: 0.5em;">
+          <p><span style="color:purple; font-size: larger; font-weight: 550;">Tìm Kiếm Gara Gần Nhất</span>
+            <br><br>Bạn có thể tìm kiếm các Gara Gần Nhất tại Việt Nam.<br><br>
+            Thậm chí bạn có thể liên hệ trực tuyến cho chúng tôi thông qua đường dây nóng hoặc trực tiếp nhắn tin để nhận được các dịch vụ tốt nhất do chúng tôi cung cấp. </p>
+          </div>
+          <div class="col-12 col-md-4"style="background-color: #DBDEE2;margin-left: 0.1em;margin-bottom: 0.5em;">
+          <p style="color:green;font-size: larger; font-weight: 550;">Bảng Giá Dịch Vụ:
+            <br><br> 
+            <p style="color: #000;">● Cẩu kéo xe các Quận nội thành: 700.000đ</p> <br>
+            <p style="color: #000;">● Cẩu kéo xe các huyện vành đai 1,2,3 (Cao tốc) 800.000-1.500.000đ</p> <br>
+            <p style="color: #000;">● Cẩu kéo xe các tỉnh khác: 500.000-1.000.000đ</p>
+          </p>
+          </div>
+        </div>
+      </div>
+
+  <br><hr>
+
+    </article>
+  <br>
+<!-- Map your bussiness-->
+  <div class="row">
+      <div class="col-sm-6">
+          <p style="font-size:27px;"> <b style="color: darkorange; font-family: 'Dancing Script', cursive; margin-left:7em;"> Công Ty Alo Cứu Hộ 14 </b><br>
+              <div id="map" style="width:600px;height:450px;margin-left:8em; border: 1px solid orange;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.6327985892585!2d105.82254171484139!3d21.007351593884884!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ac8109765ba5%3A0xd84740ece05680ee!2zVHLGsOG7nW5nIMSQ4bqhaSBo4buNYyBUaOG7p3kgbOG7o2k!5e0!3m2!1svi!2s!4v1670706567284!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+      </div>
+<!-- comment -->
+      <div class="col-sm-6 ">
+          <div class="fcf-body">
+              <div id="fcf-form">
+              <h3 class="fcf-h3">Để lại bình luận</h3>
+              <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+                  <div class="fcf-form-group">
+                      <label for="Name" class="fcf-label">Tên Bạn</label>
+                      <div class="fcf-input-group">
+                          <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+                      </div>
+                  </div>
+                  <div class="fcf-form-group">
+                      <label for="Email" class="fcf-label">Email</label>
+                      <div class="fcf-input-group">
+                          <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+                      </div>
+                  </div>
+                  <div class="fcf-form-group">
+                      <label for="Message" class="fcf-label">Bình luận</label>
+                      <div class="fcf-input-group">
+                          <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+                      </div>
+                  </div>
+                  <div class="fcf-form-group">
+                      <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Gửi</button>
+                  </div>
+                  <div class="fcf-credit" id="fcf-credit">
+                  <!-- Simple HTML email form provided by <a href="https://www.majesticform.com" target="_blank">MajesticForm</a> -->
+                  </div>
+              </form>
+              </div>
+          </div>
+      </div>
+  </div>
+
+<br><br>
+    <footer class="foooter-background" id="about">
+          <div class="container">
+              <div class="row">
+              <div class="col-12 col-sm-4" style="padding-bottom:3em; ">
+                <span style="color: coral;font-size:23px; font-family: 'Dancing Script', cursive;">  Về Chúng Tôi:</span>
+                  <br><br>
+                  Xin chào! Chúng tôi là những sinh viên năm 2 đến từ đại học Thuỷ Lợi.<br>
+                  <br>Với mục tiêu đạt điểm tối đa của môn Công Nghệ Phần Mềm này.
+                  <br><br>Hello World!
+              </div>
+              <div class="col-12 col-sm-4" style="padding-bottom:3em;">
+                <span style="color: coral;font-size:23px; font-family: 'Dancing Script', cursive;" > Liên Hệ:</span><br><br>
+                  <span style="font-family: serif">0396422172</span><br>
+                    dwwwtan@gmail.com
+                  <div class="footer-icon"  style="margin-top: 2%; ">
+        <ul>
+        <li style="padding: 0.5em;"> <a href="https://www.facebook.com/alocuuho14"><i class="fa fa-facebook"></i></a> </li>
+        <li style="padding: 0.5em;"> <a href="https://www.facebook.com/alocuuho14"><i class="fa  fa-google-plus"></i></a> </li>
+        <li style="padding: 0.5em;"> <a href="https://www.facebook.com/alocuuho14"><i class="fa fa-twitter"></i></a> </li>
+        <li style="padding: 0.5em;"> <a href="https://www.facebook.com/alocuuho14"><i class="fa fa-instagram"></i></a> </li>
+        </ul>
+              </div>
+              </div>
+              <div class="col-12 col-sm-4"style="padding-bottom:2em; ">
+                  <span style="color: coral;font-size:23px; font-family: 'Dancing Script', cursive;" > Các Dịch Vụ </span>
+                  <br><br>
+
+                <li>Gara - Trạm Xăng </li>
+                <li>Xe Kéo </li>
+                <li>Bảo Hiểm Ô tô - Xe máy </li>
+                <li>Liên Hệ Quảng Cáo</li>
+              </div>
+              </div>
+        </div>
+        <p style="text-align: center;font-family: 'Dancing Script', cursive;font-size: 1.1em;"> © 2022 dwwwtan@gmail.com - All rights reserved </p>
+    </footer>
+
+        <!-- ConveyThis code -->
+  <script src="//cdn.conveythis.com/javascript/conveythis-initializer.js"></script>
+  <script type="text/javascript">
+  	document.addEventListener("DOMContentLoaded", function(e) {
+  		ConveyThis_Initializer.init({
+  			api_key: "pub_a2d6ba866e9ee04f9c5de9904b02be32"
+  		});
+  	});
+  </script>
+  <!-- End ConveyThis code -->
+  
+  <!-- Messenger Chat Plugin Code -->
+  <div id="fb-root"></div>
+
+  <!-- Your Chat Plugin code -->
+  <div id="fb-customer-chat" class="fb-customerchat">
+  </div>
+
+  <script>
+    var chatbox = document.getElementById('fb-customer-chat');
+    chatbox.setAttribute("page_id", "114386938175790");
+    chatbox.setAttribute("attribution", "biz_inbox");
+  </script>
+
+  <!-- Your SDK code -->
+  <script>
+    window.fbAsyncInit = function() {
+      FB.init({
+        xfbml            : true,
+        version          : 'v15.0'
+      });
+    };
+
+    (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  </script>
+
+
+</body>
+
+</html>
