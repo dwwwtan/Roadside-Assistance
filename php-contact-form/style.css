@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+}
+
+p, header, img{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+}
+
+body {
+    width: 450px;
+    background: linear-gradient(0deg,rgba(0,0,0,0.1),rgba(0,0,0,0.6)) ,url(./../assets/image/road5.jpg) no-repeat center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+    margin: 0 auto;
+}
+
+header {
+    font-size: 2.8em;
+    text-transform: capitalize;
+    color: white;
+    letter-spacing: 2.5px;
+    word-spacing: 2.5px;
+    margin: 1em 1vw 1.5em;
+    text-align: center;
+    display: block;
+}
+
+p {
+    margin: 0.7em 1vw 0.7em;
+    font-size: 1.1em;
+    color: #dbdbdb;
+}
+
+a:hover {
+    font-weight: 425;
+    text-decoration: none;
+}
+
+.form-container {
+    /* background: #f1ecdf; */
+    border: #ffffff 1px solid;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.input-row {
+    margin-bottom: 20px;
+}
+
+.input-row label {
+    color: #dbdbdb;
+}
+
+.input-field {
+    width: 100%;
+    border-radius: 7px;
+    padding: 10px;
+    /* border: #e0dfdf 1px solid; */
+    box-sizing: border-box;
+    margin-top: 2px;
+}
+
+.btn-submit {
+    padding: 10px 60px;
+    background-color: darkorange;
+    border: #8c8880 1px solid;
+    color: #ffffff;
+    font-size: 0.9em;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.btn-submit:hover{
+    background-color: orange;
+}
+
+.errorMessage {
+    background-color: #e66262;
+    border: #AA4502 1px solid;
+    padding: 5px 10px;
+    color: #FFFFFF;
+    border-radius: 3px;
+}
+
+.successMessage {
+    background-color: #9fd2a1;
+    border: #91bf93 1px solid;
+    padding: 5px 10px;
+    color: #3d503d;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 0.9em;
+    margin-top: 3%;
+}
+
+.info {
+    font-size: 0.8em;
+    color: #e66262;
+    letter-spacing: 2px;
+    padding-left: 5px;
+}
