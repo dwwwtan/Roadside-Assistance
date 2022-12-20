@@ -195,6 +195,7 @@ hr{
     bottom: 20px;
     right: 15px;
     display: none;
+    margin-bottom: 3.5%;
     }
     
 #top-up:hover {
@@ -210,8 +211,4 @@ hr{
     background-color: orange;
     height: 1px;
     margin: 0 auto;
-}
-
-#fb-root {
-    margin-bottom: 10%;
 }
